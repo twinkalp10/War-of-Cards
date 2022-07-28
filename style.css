@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebc3e5;
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+	background-size: cover;  
+    background-blend-mode: multiply;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.8rem;
+    padding: 2rem;
+}
+
+.card-contaier{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: white;
+}
+
+.remainingCards{
+    color:  rgb(74, 255, 14);
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#winnerText {
+    color: rgb(74, 255, 14);
+    margin: 0;
+    font-weight: bold;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.cardWithText > p{
+    margin: 0 0 0.6rem 0;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cardWithText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+    color: darkblue;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+#draw-cards{
+    visibility: hidden;
+}
+
+#card-computer, #card-player{
+    height: 316px;
+    width: 227px;
+    border: 1px solid white;
+    border-radius: 0.7rem;
+}
+

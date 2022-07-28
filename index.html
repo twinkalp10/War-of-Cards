@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>War of Cards</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="new-deck">New Deck</button>
+      <h3 id="winnerText">A Game of War!</h3>
+      <div class="card-contaier">
+        <div class="cardWithText">
+          <p>Computer Score <span id="computerScore">0</span></p>
+          <div id="card-computer"></div>
+        </div>
+        <div class="cardWithText">
+          <p>Player Score <span id="playerScore">0</span></p>
+          <div id="card-player"></div>
+        </div>
+      </div>
+      <p class="remainingCards">Remaining Cards<span id="remainingCards"> 52</span></p>
+      <button id="draw-cards">Draw</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
